@@ -18,7 +18,7 @@ services:
     shm_size: 2gb
     depends_on:
       - selenium-hub
-    scale: 2
+    scale: 3
     environment:
       - SE_EVENT_BUS_HOST=selenium-hub
       - SE_EVENT_BUS_PUBLISH_PORT=4442
